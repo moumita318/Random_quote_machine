@@ -1,0 +1,17 @@
+body{
+  background-color:black;
+}
+
+#quote-box{
+  width:60%;
+  height:50%;
+  background-color:white;
+  margin:0 auto;
+  position:absolute; 
+  left:0; 
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+  
+}
