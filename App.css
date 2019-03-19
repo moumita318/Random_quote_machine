@@ -1,7 +1,23 @@
-
+body{
+  background-color:pink;
+}
 
 .container{
-  background-color:blue;
-  width:40vw;
-  height:50vh;
+  background-color:black;
+  width:auto;
+  height:100%;
+  margin-top:100px;
+}
+
+
+.bttn {
+  margin-top:250px;
+  margin-left:200px;
+}
+
+
+
+#quote-box{
+  background-color: blue;
+  margin-top:10em;
 }
