@@ -1,10 +1,15 @@
 
-body{
+.mainbody{
 font-family: 'Indie Flower', cursive;
+background-color: purple;
+}
+
+.heading{
+  color:red;
 }
 
 .container{
-  background-color:white;
+  background-color:purple;
   width:auto;
   height:100%;
   margin-top:100px;
@@ -24,6 +29,8 @@ font-family: 'Indie Flower', cursive;
   margin-top:2em;
   margin-right:20px;
   color:white;
+  border-radius: 15px;
+
 }
 
 #twitter{

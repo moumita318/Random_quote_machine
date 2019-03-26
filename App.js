@@ -1,8 +1,81 @@
 $(document).ready(function(){
 
-const quotes=["It always seems impossible until it's done","It does not matter how slowly you go as long as you do not stop","Failure will never overtake me if my determination to succeed is strong enough","The past cannot be changed. The future is yet in your power","With the new day comes new strength and new thoughts","Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence","Change your life today. Don't gamble on the future, act now, without delay","Life is 10% what happens to you and 90% how you react to it","Good, better, best. Never let it rest.Til your good is better and your better is best","Only I can change my life. No one can do it for me","When you want to succeed as bad as you want to breathe, then you’ll be successful","Hard work beats talent when talent doesn’t work hard"];
+const quotes=[
+{
+	quote:"The best preparation for tomorrow is doing your best today",
+	author:"H. Jackson Brown, Jr"
+},
+{
+	quote:"Change your thoughts and you change your world",
+	author:"Norman Vincent Peale"
+},
+{
+	quote:"What we think, we become",
+	author:"Buddha"
+},
+{
+	quote:"When you have a dream, you've got to grab it and never let go",
+	author:"Carol Burnett"
+},
+{
+    quote:"You must do the things you think you cannot do",
+    author:"Tonny Robbins"
+},
+{
+    quote:"There is nothing impossible to him who will try",
+    author:"Alexander"	
+},
+{
+	quote:"A champion is someone who gets up when he can't.",
+    author:"Jack Dempsey"	
+},
+{
+	quote:"It is never too late to be what you might have been.",
+    author:"George Eliot"
+},
+{
+	quote:"When deeds speak, words are nothing.",
+    author:"Pierre-Joseph Proudhon"
+},
+{
+	quote:"It is by acts and not by ideas that people live.",
+    author:"Anatole France"
+}.
+{
+	quote:"Let us make our future now, and let us make our dreams tomorrow’s reality.",
+    author:"Malala Yousafzai"
+},
+{
+	quote:"Happiness is not something you postpone for the future; it is something you design for the present.",
+    author:"Jim Rohn"
+}]
 
-$("#new-quote").click(function(){
-  var randomNumber=Math.floor(Math.random() * (quotes.length));
-document.getElementById("text").innerHTML =quotes[randomNumber];
+const colors=["blue","yellow","pink","red","green","orange","brown","lime","aqua","teal","olive"];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
