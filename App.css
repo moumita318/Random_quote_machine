@@ -6,22 +6,20 @@ background-color: purple;
 
 .heading{
   color:red;
+  font-size:60px;
 }
 
 .container{
   background-color:purple;
   width:auto;
   height:100%;
-  margin-top:100px;
+  margin-top:80px;
 }
 
 
 .bttn {
-  margin-top:250px;
-  margin-left:200px;
   color:black;
 }
-
 
 
 #quote-box{
