@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/***$(document).ready(function(){
 
 const quotes=[
 {
@@ -50,15 +50,10 @@ const quotes=[
     author:"Jim Rohn"
 }]
 
-const colors=["blue","yellow","pink","red","green","orange","brown","lime","aqua","teal","olive"];
+const colors=["blue","yellow","pink","red","green","orange","brown","lime","aqua","teal","olive"];***/
 
-$('#new-quote').click(function(){
-alert("mou");
-
-
-
-
-
+$(".new-quote").click(function(){
+  alert("The paragraph was clicked.");
 });
 
 
@@ -85,4 +80,3 @@ alert("mou");
 
 
 
-});
